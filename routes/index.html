@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Welcome to Page</h1>
+
+    <script>
+        const workstation = {
+            name:"Fiating", 
+            time:500, 
+            id:'A124FF231A', 
+            types:['value-adding','Non-value-adding','Waste' ]
+        };
+    </script>
+
+    <div class="container-form">
+        <form action="/" id="container-form">
+            <input type="text" name="title" id="title">
+            <input type="number" name="time" id="time">
+            <select name="type" id="type">
+                <option value="Value-adding">Value-adding</option>
+                <option value="Non-value-adding">Non-value-adding</option>
+                <option value="Waste">Waste</option>
+            </select>
+ 
+        </form>
+        <button onclick="createForm()">Update</button>
+    </div>
+
+    <div id="stationsCont">        
+    </div>
+    <div id="stationsCont">        
+    </div>
+
+    <ul id="outputList">
+    </ul>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</body>
+</html>

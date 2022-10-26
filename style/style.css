@@ -1,0 +1,23 @@
+.item-container-class{
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+
+}
+.value-adding{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+
+.non-value-adding{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.waste{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
