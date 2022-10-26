@@ -1,4 +1,6 @@
 
+let username ='Majid'; 
+
 
 let workstations = [
         {
